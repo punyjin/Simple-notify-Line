@@ -32,7 +32,7 @@
 3. นำเข้าฐานข้อมูล MySQL:
    ```bash
    mysql -u your_username -p your_database < database.sql
-4. ตั้งค่า MySQL ใน Conntect.php ให้ตรงกับที่ได้ตั้งค่าไว้:
+4. ตั้งค่า MySQL ใน Connect.php ให้ตรงกับที่ได้ตั้งค่าไว้:
      ```bash
     $host = 'localhost'; // ชื่อโฮสต์ของฐานข้อมูล
     $db = 'databasename'; // ชื่อฐานข้อมูล
